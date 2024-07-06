@@ -1,8 +1,7 @@
-# Flight-Price-Prediction
+# Flight Price Prediction
 
 ## Project Overview
 This project, undertaken by Group 3 for our ML course, aims to predict flight prices using machine learning techniques. We developed a model that helps travelers make informed decisions by forecasting flight costs based on various factors.
-
 
 ## Table of Contents
 1. [Motivation](#motivation)
@@ -16,7 +15,7 @@ This project, undertaken by Group 3 for our ML course, aims to predict flight pr
 ## Motivation
 Flight prices vary significantly due to multiple factors such as airlines, destinations, and departure schedules. This variability makes it challenging for travelers to make cost-effective decisions. Our project seeks to leverage machine learning to build a model that accurately predicts flight prices, helping users optimize their travel plans and reduce costs.
 
-![Motivation Image](path/to/motivation_image.png)
+![Motivation Image](Image/Motivation_Image.png)
 
 ## Literature Review
 ### Research Paper 1
@@ -46,7 +45,8 @@ The dataset includes features such as:
 | Days_left          | Days left for the flight                              |
 | Price              | Flight price                                          |
 
-![Dataset Visualization](path/to/dataset_visualization.png)
+![Dataset Visualization](Image/dataset_visualization_1.png)
+![](Image/dataset_visualization_2.png)
 
 ## Methodology
 1. **Data Collection**
@@ -60,42 +60,24 @@ The dataset includes features such as:
    - Training and testing various models
 5. **Evaluation**
 
-![Methodology Diagram](path/to/methodology_diagram.png)
+![Methodology Diagram](Image/Methodology.png)
 
 ## Results and Analysis
 We evaluated multiple models:
 
 | Model                  | Results |
 |------------------------|---------|
-| Linear Regression      | [Results Image](path/to/linear_regression_results.png) |
-| Lasso Regularization   | [Results Image](path/to/lasso_regularization_results.png) |
-| Ridge Regularization   | [Results Image](path/to/ridge_regularization_results.png) |
-| SGD Regressor          | [Results Image](path/to/sgd_regressor_results.png) |
-| Naive Bayes            | [Results Image](path/to/naive_bayes_results.png) |
-| SVM                    | [Results Image](path/to/svm_results.png) |
-| Decision Tree          | [Results Image](path/to/decision_tree_results.png) |
-| Random Forest          | [Results Image](path/to/random_forest_results.png) |
-| Polynomial Regression  | [Results Image](path/to/polynomial_regression_results.png) |
+| Linear Regression      | [Results Image](Image/Linear.png) |
+| Lasso Regularization   | [Results Image](Image/Lasso.png) |
+| Ridge Regularization   | [Results Image](Image/Ridge.png) |
+| SGD Regressor          | [Results Image](Image/SGD.png) |
+| Naive Bayes            | [Results Image](Image/Naive_Bayes.png) |
+| SVM                    | [Results Image](Image/SVM.png) |
+| Decision Tree          | [Results Image](Image/Decision_tree.png) |
+| Random Forest          | [Results Image](Image/Random_Forest.png) |
+| Polynomial Regression  | [Results Image](Image/Polynomial.png) |
 
-## Timeline
-- **Week 1**: Data Preprocessing
-- **Week 2**: Data Visualization & Feature Engineering
-- **Week 3-4**: Model Training and Optimization
-- **Week 5**: Front-End Ideation and Application
-- **Week 6**: Model Evaluation and Fine-Tuning
+### Final Results
+Our study found that **Polynomial Regression**, **Naive Bayes**, **Random Forest**, and **Decision Trees** were the top-performing models. Among these, **Random Forest** provided the highest accuracy. 
 
-## Contribution
-### Akshat and Pratham
-- Data Preprocessing and Exploration
-- Feature Engineering and Selection
-
-### Hitesh and Harsh
-- Model Selection and Training
-- Model Evaluation and Fine-Tuning
-
-### All Members
-- Comprehensive documentation of the entire project
-
----
-
-Feel free to replace the image paths with the actual paths to your images.
+To ensure the robustness of our results, we performed K-fold Cross Validation on each model, confirming that Random Forest consistently delivered superior performance.
