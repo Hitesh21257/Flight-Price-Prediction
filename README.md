@@ -1,7 +1,7 @@
 # Flight Price Prediction
 
 ## Project Overview
-This project, undertaken by Group 3 for our ML course, aims to predict flight prices using machine learning techniques. We developed a model that helps travelers make informed decisions by forecasting flight costs based on various factors.
+This project, aims to predict flight prices using machine learning techniques. We developed a model that helps travelers make informed decisions by forecasting flight costs based on various factors.
 
 ## Table of Contents
 1. [Motivation](#motivation)
